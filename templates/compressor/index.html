@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDF Compressor</title>
+<link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+<main class="page-shell">
+<section class="hero">
+<div class="eyebrow">PDF TOOLKIT</div>
+<h1>PDF más livianos.<br><span>Sin complicaciones.</span></h1>
+<p class="hero-copy">Reduce el tamaño de tus PDF conservando una excelente calidad visual.</p>
+</section>
+
+<section class="tool-card">
+<form id="compressForm" action="{% url 'compressor:compress' %}" method="post" enctype="multipart/form-data">
+{% csrf_token %}
+
+<label class="dropzone" id="dropzone">
+<input id="pdfInput" type="file" name="pdf" accept="application/pdf,.pdf" required>
+<div class="drop-icon">↓</div>
+<div><strong>Arrastra tu PDF aquí</strong><span>o haz clic para seleccionar</span></div>
+<small>Máximo 50 MB</small>
+</label>
+
+<div id="fileInfo" class="file-info hidden">
+<div><strong id="fileName"></strong><span id="fileSize"></span></div>
+<button type="button" id="removeFile" class="ghost-button">Quitar</button>
+</div>
+
+<div class="section-heading">
+<div><span class="step">01</span><h2>Calidad</h2></div>
+<p>Equilibrio entre tamaño y detalle.</p>
+</div>
+
+<div class="preset-grid">
+<label class="preset-option"><input type="radio" name="preset" value="ultra"><span><b>Máxima</b><small>96 DPI · Q55</small></span></label>
+<label class="preset-option"><input type="radio" name="preset" value="small"><span><b>Pequeño</b><small>120 DPI · Q68</small></span></label>
+<label class="preset-option selected"><input type="radio" name="preset" value="balanced" checked><span><b>Equilibrada</b><small>150 DPI · Q82</small></span></label>
+<label class="preset-option"><input type="radio" name="preset" value="quality"><span><b>Alta calidad</b><small>200 DPI · Q88</small></span></label>
+</div>
+
+<button class="primary-button" type="submit" id="submitButton"><span id="submitText">Comprimir PDF</span><span>→</span></button>
+
+<div id="progress" class="progress hidden"><strong>Optimizando PDF…</strong></div>
+<div id="result" class="result hidden">
+<div class="result-badge">✓ COMPLETADO</div>
+<div class="metrics">
+<div><span>Original</span><strong id="originalSize">—</strong></div>
+<div><span>Comprimido</span><strong id="compressedSize">—</strong></div>
+<div><span>Reducción</span><strong id="reduction">—</strong></div>
+</div>
+<button type="button" id="downloadAgain" class="secondary-button">Descargar de nuevo</button>
+</div>
+<div id="errorBox" class="error-box hidden"></div>
+</form>
+</section>
+</main>
+
+<script>
+const form=document.getElementById("compressForm");
+const input=document.getElementById("pdfInput");
+const fileInfo=document.getElementById("fileInfo");
+const progress=document.getElementById("progress");
+const result=document.getElementById("result");
+const errorBox=document.getElementById("errorBox");
+const submitButton=document.getElementById("submitButton");
+let lastUrl=null,lastFilename=null;
+
+function size(bytes){let u=["B","KB","MB","GB"],v=bytes,i=0;while(v>=1024&&i<u.length-1){v/=1024;i++;}return `${v.toFixed(i?2:0)} ${u[i]}`;}
+function sync(){const f=input.files[0];if(!f){fileInfo.classList.add("hidden");return;}document.getElementById("fileName").textContent=f.name;document.getElementById("fileSize").textContent=size(f.size);fileInfo.classList.remove("hidden");}
+input.addEventListener("change",sync);
+document.getElementById("removeFile").onclick=()=>{input.value="";sync();};
+document.querySelectorAll(".preset-option").forEach(x=>x.onclick=()=>{document.querySelectorAll(".preset-option").forEach(y=>y.classList.remove("selected"));x.classList.add("selected");});
+
+form.addEventListener("submit",async e=>{
+e.preventDefault(); errorBox.classList.add("hidden"); result.classList.add("hidden");
+if(!input.files.length){errorBox.textContent="Selecciona un PDF.";errorBox.classList.remove("hidden");return;}
+progress.classList.remove("hidden"); submitButton.disabled=true;
+try{
+const r=await fetch(form.action,{method:"POST",body:new FormData(form)});
+if(!r.ok){const j=await r.json().catch(()=>({}));throw new Error(j.error||"Error al comprimir.");}
+const blob=await r.blob();
+const disp=r.headers.get("Content-Disposition")||"";
+const m=disp.match(/filename="?([^"]+)"?/i);
+lastFilename=m?m[1]:"archivo_comprimido.pdf";
+if(lastUrl)URL.revokeObjectURL(lastUrl);
+lastUrl=URL.createObjectURL(blob);
+const a=document.createElement("a");a.href=lastUrl;a.download=lastFilename;document.body.appendChild(a);a.click();a.remove();
+document.getElementById("originalSize").textContent=size(Number(r.headers.get("X-Original-Size")));
+document.getElementById("compressedSize").textContent=size(Number(r.headers.get("X-Compressed-Size")));
+document.getElementById("reduction").textContent=`${Number(r.headers.get("X-Reduction-Percent")).toFixed(1)}%`;
+result.classList.remove("hidden");
+}catch(err){errorBox.textContent=err.message;errorBox.classList.remove("hidden");}
+finally{progress.classList.add("hidden");submitButton.disabled=false;}
+});
+document.getElementById("downloadAgain").onclick=()=>{if(!lastUrl)return;const a=document.createElement("a");a.href=lastUrl;a.download=lastFilename;a.click();};
+</script>
+</body>
+</html>

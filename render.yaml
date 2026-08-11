@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pdf-compressor
+    runtime: docker
+    plan: free
+    healthCheckPath: /health/
+    autoDeploy: true
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DJANGO_DEBUG
+        value: "false"
