@@ -1,0 +1,614 @@
+[
+{
+"start": 0.0,
+"end": 3.92,
+"text": " Este es Chery Commercial Expert, una nueva forma de explorar.",
+"words": [
+[
+0.0,
+0.32,
+" Este"
+],
+[
+0.32,
+0.56,
+" es"
+],
+[
+0.56,
+0.84,
+" Chery"
+],
+[
+0.84,
+1.12,
+" Commercial"
+],
+[
+1.12,
+1.64,
+" Expert,"
+],
+[
+2.18,
+2.4,
+" una"
+],
+[
+2.4,
+2.62,
+" nueva"
+],
+[
+2.62,
+3.02,
+" forma"
+],
+[
+3.02,
+3.26,
+" de"
+],
+[
+3.26,
+3.92,
+" explorar."
+]
+]
+},
+{
+"start": 4.5,
+"end": 8.22,
+"text": " Recorre el hall digital y elige entre todo el portafolio disponible.",
+"words": [
+[
+4.5,
+4.76,
+" Recorre"
+],
+[
+4.76,
+4.9,
+" el"
+],
+[
+4.9,
+5.08,
+" hall"
+],
+[
+5.08,
+5.52,
+" digital"
+],
+[
+5.52,
+5.92,
+" y"
+],
+[
+5.92,
+6.22,
+" elige"
+],
+[
+6.22,
+6.46,
+" entre"
+],
+[
+6.46,
+6.8,
+" todo"
+],
+[
+6.8,
+6.96,
+" el"
+],
+[
+6.96,
+7.54,
+" portafolio"
+],
+[
+7.54,
+8.22,
+" disponible."
+]
+]
+},
+{
+"start": 8.62,
+"end": 10.64,
+"text": " Abre el modelo en tres dimensiones.",
+"words": [
+[
+8.62,
+8.88,
+" Abre"
+],
+[
+8.88,
+9.04,
+" el"
+],
+[
+9.04,
+9.32,
+" modelo"
+],
+[
+9.32,
+9.6,
+" en"
+],
+[
+9.6,
+9.8,
+" tres"
+],
+[
+9.8,
+10.64,
+" dimensiones."
+]
+]
+},
+{
+"start": 11.08,
+"end": 15.84,
+"text": " Recorre el exterior, cambia el color y descubre puntos de interés con un gesto.",
+"words": [
+[
+11.08,
+11.54,
+" Recorre"
+],
+[
+11.54,
+11.64,
+" el"
+],
+[
+11.64,
+11.98,
+" exterior,"
+],
+[
+12.42,
+12.68,
+" cambia"
+],
+[
+12.68,
+12.78,
+" el"
+],
+[
+12.78,
+13.06,
+" color"
+],
+[
+13.06,
+13.34,
+" y"
+],
+[
+13.34,
+13.84,
+" descubre"
+],
+[
+13.84,
+14.2,
+" puntos"
+],
+[
+14.2,
+14.48,
+" de"
+],
+[
+14.48,
+14.88,
+" interés"
+],
+[
+14.88,
+15.12,
+" con"
+],
+[
+15.12,
+15.3,
+" un"
+],
+[
+15.3,
+15.84,
+" gesto."
+]
+]
+},
+{
+"start": 16.2,
+"end": 22.96,
+"text": " Entra a la galería interior y consulta características, seguridad, autonomía, precio, financiación y ficha técnica.",
+"words": [
+[
+16.2,
+16.56,
+" Entra"
+],
+[
+16.56,
+16.7,
+" a"
+],
+[
+16.7,
+16.78,
+" la"
+],
+[
+16.78,
+17.22,
+" galería"
+],
+[
+17.22,
+17.64,
+" interior"
+],
+[
+17.64,
+17.96,
+" y"
+],
+[
+17.96,
+18.46,
+" consulta"
+],
+[
+18.46,
+18.92,
+" características,"
+],
+[
+19.52,
+19.78,
+" seguridad,"
+],
+[
+20.2,
+20.78,
+" autonomía,"
+],
+[
+20.98,
+21.24,
+" precio,"
+],
+[
+21.54,
+22.04,
+" financiación"
+],
+[
+22.04,
+22.34,
+" y"
+],
+[
+22.34,
+22.6,
+" ficha"
+],
+[
+22.6,
+22.96,
+" técnica."
+]
+]
+},
+{
+"start": 23.64,
+"end": 24.46,
+"text": " Tienes una pregunta.",
+"words": [
+[
+23.64,
+23.96,
+" Tienes"
+],
+[
+23.96,
+24.14,
+" una"
+],
+[
+24.14,
+24.46,
+" pregunta."
+]
+]
+},
+{
+"start": 25.18,
+"end": 27.58,
+"text": " Chery Expert sabe qué modelo estás viendo.",
+"words": [
+[
+25.18,
+25.5,
+" Chery"
+],
+[
+25.5,
+25.82,
+" Expert"
+],
+[
+25.82,
+26.3,
+" sabe"
+],
+[
+26.3,
+26.52,
+" qué"
+],
+[
+26.52,
+26.78,
+" modelo"
+],
+[
+26.78,
+27.16,
+" estás"
+],
+[
+27.16,
+27.58,
+" viendo."
+]
+]
+},
+{
+"start": 27.58,
+"end": 32.36,
+"text": " Pregúntale, compara opciones y recibe orientación según tus recorridos.",
+"words": [
+[
+27.58,
+28.74,
+" Pregúntale,"
+],
+[
+29.0,
+29.32,
+" compara"
+],
+[
+29.32,
+29.78,
+" opciones"
+],
+[
+29.78,
+30.12,
+" y"
+],
+[
+30.12,
+30.54,
+" recibe"
+],
+[
+30.54,
+31.12,
+" orientación"
+],
+[
+31.12,
+31.44,
+" según"
+],
+[
+31.44,
+31.68,
+" tus"
+],
+[
+31.68,
+32.36,
+" recorridos."
+]
+]
+},
+{
+"start": 32.84,
+"end": 36.34,
+"text": " Reserva, agenda una prueba de manejo o déjanos tus datos.",
+"words": [
+[
+32.84,
+33.52,
+" Reserva,"
+],
+[
+33.7,
+34.02,
+" agenda"
+],
+[
+34.02,
+34.22,
+" una"
+],
+[
+34.22,
+34.48,
+" prueba"
+],
+[
+34.48,
+34.66,
+" de"
+],
+[
+34.66,
+35.08,
+" manejo"
+],
+[
+35.08,
+35.28,
+" o"
+],
+[
+35.28,
+35.78,
+" déjanos"
+],
+[
+35.78,
+35.94,
+" tus"
+],
+[
+35.94,
+36.34,
+" datos."
+]
+]
+},
+{
+"start": 36.9,
+"end": 41.28,
+"text": " Con tu autorización, el equipo comercial puede continuar en el CRM.",
+"words": [
+[
+36.9,
+37.02,
+" Con"
+],
+[
+37.02,
+37.16,
+" tu"
+],
+[
+37.16,
+37.88,
+" autorización,"
+],
+[
+38.22,
+38.3,
+" el"
+],
+[
+38.3,
+38.52,
+" equipo"
+],
+[
+38.52,
+39.04,
+" comercial"
+],
+[
+39.04,
+39.36,
+" puede"
+],
+[
+39.36,
+39.86,
+" continuar"
+],
+[
+39.86,
+40.12,
+" en"
+],
+[
+40.12,
+40.26,
+" el"
+],
+[
+40.26,
+41.28,
+" CRM."
+]
+]
+},
+{
+"start": 41.76,
+"end": 46.62,
+"text": " Chery Commercial Expert, explora, pregunta y avanza hacia tu próximo cherry.",
+"words": [
+[
+41.76,
+42.1,
+" Chery"
+],
+[
+42.1,
+42.54,
+" Commercial"
+],
+[
+42.54,
+42.96,
+" Expert,"
+],
+[
+43.4,
+44.12,
+" explora,"
+],
+[
+44.3,
+44.6,
+" pregunta"
+],
+[
+44.6,
+45.04,
+" y"
+],
+[
+45.04,
+45.42,
+" avanza"
+],
+[
+45.42,
+45.64,
+" hacia"
+],
+[
+45.64,
+45.84,
+" tu"
+],
+[
+45.84,
+46.16,
+" próximo"
+],
+[
+46.16,
+46.62,
+" cherry."
+]
+]
+}
+]

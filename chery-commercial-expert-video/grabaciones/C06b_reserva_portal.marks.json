@@ -1,0 +1,14 @@
+{
+ "firstFrameOffset": 0.08986806869506836,
+ "slow": 6,
+ "marks": [
+  {
+   "label": "scroll",
+   "t": 1.485
+  },
+  {
+   "label": "color",
+   "t": 3.906
+  }
+ ]
+}

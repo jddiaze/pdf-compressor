@@ -1,0 +1,154 @@
+{
+ "fps": 30,
+ "bpm": 100,
+ "duration": 66.0,
+ "scenes": [
+  {
+   "id": "S1_impacto",
+   "t0": 0.0,
+   "t1": 6.0
+  },
+  {
+   "id": "S2_hall",
+   "t0": 6.0,
+   "t1": 13.8
+  },
+  {
+   "id": "S3_visor3d",
+   "t0": 13.8,
+   "t1": 21.6
+  },
+  {
+   "id": "S4_interior_menu",
+   "t0": 21.6,
+   "t1": 30.0
+  },
+  {
+   "id": "S5_chat",
+   "t0": 30.0,
+   "t1": 48.0
+  },
+  {
+   "id": "S6_conversion_crm",
+   "t0": 48.0,
+   "t1": 58.2
+  },
+  {
+   "id": "S7_cierre",
+   "t0": 58.2,
+   "t1": 66.0
+  }
+ ],
+ "hits": [
+  1.2,
+  13.8,
+  30.0,
+  31.2,
+  48.0,
+  58.2
+ ],
+ "narration": {
+  "file": "audio/narracion_original_chery_lorena.mp3",
+  "chunks": [
+   {
+    "id": "N1",
+    "src": [
+     0.0,
+     4.1
+    ],
+    "dst": 1.2,
+    "text": "Este es Chery Commercial Expert. Una nueva forma de explorar."
+   },
+   {
+    "id": "N2",
+    "src": [
+     4.1,
+     8.45
+    ],
+    "dst": 6.3,
+    "text": "Recorre el hall digital y elige entre todo el portafolio disponible."
+   },
+   {
+    "id": "N3a",
+    "src": [
+     8.45,
+     10.93
+    ],
+    "dst": 13.85,
+    "text": "Abre el modelo en tres dimensiones."
+   },
+   {
+    "id": "N3b",
+    "src": [
+     10.93,
+     16.0
+    ],
+    "dst": 16.3,
+    "text": "Recorre el exterior, cambia el color y descubre puntos de interés con un gesto."
+   },
+   {
+    "id": "N4",
+    "src": [
+     16.0,
+     23.45
+    ],
+    "dst": 21.75,
+    "text": "Entra a la galería interior y consulta características, seguridad, autonomía, precio, financiación y ficha técnica."
+   },
+   {
+    "id": "N5a",
+    "src": [
+     23.45,
+     25.0
+    ],
+    "dst": 31.25,
+    "text": "¿Tienes una pregunta?"
+   },
+   {
+    "id": "N5b",
+    "src": [
+     25.0,
+     28.0
+    ],
+    "dst": 35.35,
+    "text": "Chery Expert sabe qué modelo estás viendo."
+   },
+   {
+    "id": "N5c",
+    "src": [
+     28.0,
+     32.7
+    ],
+    "dst": 38.65,
+    "text": "Pregúntale, compara opciones y recibe orientación según tus recorridos."
+   },
+   {
+    "id": "N6a",
+    "src": [
+     32.7,
+     36.8
+    ],
+    "dst": 48.15,
+    "text": "Reserva, agenda una prueba de manejo o déjanos tus datos."
+   },
+   {
+    "id": "N6b",
+    "src": [
+     36.8,
+     41.55
+    ],
+    "dst": 52.55,
+    "text": "Con tu autorización, el equipo comercial puede continuar en el CRM."
+   },
+   {
+    "id": "N7",
+    "src": [
+     41.55,
+     47.05
+    ],
+    "dst": 58.4,
+    "text": "Chery Commercial Expert. Explora, pregunta y avanza hacia tu próximo Chery."
+   }
+  ]
+ }
+}

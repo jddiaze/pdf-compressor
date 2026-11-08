@@ -1,0 +1,86 @@
+{
+ "firstFrameOffset": 0.13614201545715332,
+ "slow": 3,
+ "marks": [
+  {
+   "label": "q1_focus",
+   "t": 1.155
+  },
+  {
+   "label": "q1_type",
+   "t": 2.449
+  },
+  {
+   "label": "q1_send",
+   "t": 4.859
+  },
+  {
+   "label": "q1_thinking",
+   "t": 5.726
+  },
+  {
+   "label": "q1_answer",
+   "t": 6.947
+  },
+  {
+   "label": "q2_focus",
+   "t": 9.564
+  },
+  {
+   "label": "q2_type",
+   "t": 10.72
+  },
+  {
+   "label": "q2_send",
+   "t": 14.001
+  },
+  {
+   "label": "q2_thinking",
+   "t": 14.83
+  },
+  {
+   "label": "q2_answer",
+   "t": 16.273
+  },
+  {
+   "label": "q3_focus",
+   "t": 18.885
+  },
+  {
+   "label": "q3_type",
+   "t": 20.029
+  },
+  {
+   "label": "q3_send",
+   "t": 25.921
+  },
+  {
+   "label": "q3_thinking",
+   "t": 26.759
+  },
+  {
+   "label": "q3_answer",
+   "t": 27.965
+  },
+  {
+   "label": "q4_focus",
+   "t": 30.576
+  },
+  {
+   "label": "q4_type",
+   "t": 31.718
+  },
+  {
+   "label": "q4_send",
+   "t": 34.72
+  },
+  {
+   "label": "q4_thinking",
+   "t": 35.557
+  },
+  {
+   "label": "q4_answer",
+   "t": 36.602
+  }
+ ]
+}

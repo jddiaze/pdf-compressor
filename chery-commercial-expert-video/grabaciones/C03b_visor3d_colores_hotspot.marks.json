@@ -1,0 +1,17 @@
+{
+ "firstFrameOffset": 0,
+ "marks": [
+  {
+   "label": "color_Verde Aurora",
+   "t": 0.3
+  },
+  {
+   "label": "color_Blanco",
+   "t": 1.8
+  },
+  {
+   "label": "hotspot",
+   "t": 3.3
+  }
+ ]
+}

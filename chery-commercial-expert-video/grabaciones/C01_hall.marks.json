@@ -1,0 +1,42 @@
+{
+ "firstFrameOffset": 0.1890718936920166,
+ "slow": 3,
+ "marks": [
+  {
+   "label": "to_tiggo4",
+   "t": 1.538
+  },
+  {
+   "label": "tiggo4",
+   "t": 2.404
+  },
+  {
+   "label": "to_tiggo7",
+   "t": 4.705
+  },
+  {
+   "label": "tiggo7",
+   "t": 5.566
+  },
+  {
+   "label": "to_tiggo8",
+   "t": 7.866
+  },
+  {
+   "label": "tiggo8",
+   "t": 8.722
+  },
+  {
+   "label": "to_tiggo9",
+   "t": 11.022
+  },
+  {
+   "label": "tiggo9",
+   "t": 11.875
+  },
+  {
+   "label": "hover_3d",
+   "t": 14.175
+  }
+ ]
+}

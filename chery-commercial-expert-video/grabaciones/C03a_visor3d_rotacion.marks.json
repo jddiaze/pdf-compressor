@@ -1,0 +1,13 @@
+{
+ "firstFrameOffset": 0,
+ "marks": [
+  {
+   "label": "drag_start",
+   "t": 0.4
+  },
+  {
+   "label": "drag_end",
+   "t": 3.2
+  }
+ ]
+}
