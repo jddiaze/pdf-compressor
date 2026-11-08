@@ -43,3 +43,8 @@ for a, b, t in out:
     ass.append(f'Dialogue: 0,{ts(a, ".")[1:-1]},{ts(b, ".")[1:-1]},Sub,,0,0,0,,{t.replace(chr(10), "\\N")}')
 open(os.path.join(ROOT, 'source/audio/subtitulos.ass'), 'w', encoding='utf-8').write('\n'.join(ass) + '\n')
 print(srt)
+
+# Variante horizontal 16:9
+ass16 = [l.replace('PlayResX: 1080', 'PlayResX: 1920').replace('PlayResY: 1920', 'PlayResY: 1080')
+         .replace('Style: Sub,Inter,46,', 'Style: Sub,Inter,42,').replace(',3,14,0,2,90,90,430,1', ',3,12,0,2,240,240,60,1') for l in ass]
+open(os.path.join(ROOT, 'source/audio/subtitulos_16x9.ass'), 'w', encoding='utf-8').write('\n'.join(ass16) + '\n')

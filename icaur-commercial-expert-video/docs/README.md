@@ -1,4 +1,4 @@
-# iCAUR Commercial Expert · Video promocional 9:16 (v2)
+# iCAUR Commercial Expert · Video promocional 9:16 y 16:9 (v2)
 
 Demostración de producto basada en **interacciones reales** grabadas en https://icaur.commercialexpert.denivodigital.com/ (8 de noviembre de 2026): hall digital, visor 3D, galería interior, menú de producto, chat iCAUR Expert con preguntas y respuestas reales, prueba de manejo, formulario de datos y portal de reserva.
 
@@ -7,6 +7,8 @@ Demostración de producto basada en **interacciones reales** grabadas en https:/
 | Archivo | Contenido |
 |---|---|
 | `final/Commercial_Expert_iCAUR_9x16_66s.mp4` | **Video final** 1080 × 1920, 30 fps, 66 s, H.264 + AAC 256 kbps, −14 LUFS / −1 dBTP. Listo para Reels, TikTok, Shorts y LinkedIn. |
+| `final/Commercial_Expert_iCAUR_16x9_66s.mp4` | **Versión horizontal** 1920 × 1080 (YouTube, presentaciones, web). Misma narración, música y tiempos; encuadres rediseñados con la interfaz a la derecha y los textos en una columna a la izquierda. |
+| `final/Commercial_Expert_iCAUR_16x9_66s_subtitulado.mp4` | Versión horizontal con subtítulos quemados. |
 | `final/Commercial_Expert_iCAUR_9x16_66s_subtitulado.mp4` | Igual, con subtítulos quemados (zona segura inferior). |
 | `final/Commercial_Expert_iCAUR_9x16_66s_sin_textos.mp4` | Misma edición y cámara, sin textos, chips ni flechas (para rotular en otro editor). Conserva logos y resaltados. |
 | `final/Commercial_Expert_iCAUR_subtitulos_ES.srt` | Subtítulos en español, sincronizados con transcripción Whisper. |
@@ -40,11 +42,18 @@ python source/audio/srt.py                 # SRT + ASS
 ffmpeg -i final/_video_sin_audio.mp4 -i audio/mezcla_final.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 256k -movflags +faststart final/Commercial_Expert_iCAUR_9x16_66s.mp4
 ```
 
+Versión horizontal 16:9 (usa `timeline_16x9.js` y `comp_16x9.html`; mismo audio):
+
+```bash
+node source/compose/render.js --comp comp_16x9.html --w 1920 --h 1080 --workers 4 --out final/_video_16x9_sin_audio.mp4
+ffmpeg -i final/_video_16x9_sin_audio.mp4 -i audio/mezcla_final.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 256k -movflags +faststart final/Commercial_Expert_iCAUR_16x9_66s.mp4
+```
+
 Vista previa de fotogramas sueltos: `node source/compose/render.js --stills 5,20,36.5` (crea `final/_still_*.jpg`). Versión sin textos: añadir `--notext 1 --out final/x.mp4`.
 
 ## Modificar el video
 
-**Cambiar textos en pantalla:** edite el objeto `TEXTOS` al inicio de `source/compose/timeline.js`.
+**Cambiar textos en pantalla:** edite el objeto `TEXTOS` al inicio de `source/compose/timeline.js` (9:16) y de `source/compose/timeline_16x9.js` (16:9).
 
 **Reemplazar la narración:**
 1. Coloque la nueva toma en `audio/` y actualice `narration.file` en `source/timeline_master.json`.

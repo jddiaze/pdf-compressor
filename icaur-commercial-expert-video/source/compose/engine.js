@@ -3,7 +3,7 @@
 // Cada fotograma se dibuja con renderFrame(n). Los elementos se crean una
 // vez y se actualizan por fotograma, así el render es determinista.
 // =====================================================================
-const W = 1080, H = 1920, FPS = 30;
+const W = window.STAGE_W || 1080, H = window.STAGE_H || 1920, FPS = 30;
 const C = { ocre: '#D58D0F', arena: '#C5A57B', cafe: '#5B3629', naranja: '#E86B22', noche: '#1B1F28', negro: '#272421', oliva: '#4D6047', blanco: '#FFFFFF', fondo: '#F8F7F4' };
 
 // ---------- utilidades de animación

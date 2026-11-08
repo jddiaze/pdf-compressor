@@ -10,11 +10,12 @@ const from = Math.round(+arg('from', 0) * FPS), to = Math.round(+arg('to', TL.du
 const workers = +arg('workers', 3);
 const out = path.resolve(ROOT, arg('out', 'final/_video_sin_audio.mp4'));
 const stills = arg('stills', null);
-const COMP = 'file://' + path.join(__dirname, 'comp.html');
+const COMPF = arg('comp', 'comp.html'); const COMP = 'file://' + path.join(__dirname, COMPF);
+const VW = +arg('w', 1080), VH = +arg('h', 1920);
 
 async function openPage() {
   const b = await chromium.launch({ args: ['--disable-web-security', '--allow-file-access-from-files', '--font-render-hinting=none'] });
-  const p = await b.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
+  const p = await b.newPage({ viewport: { width: VW, height: VH }, deviceScaleFactor: 1 });
   p.on('pageerror', e => console.error('PAGEERR', e.message));
   p.on('console', m => { if (m.type() === 'error') console.error('CONSOLE', m.text()); });
   if (arg('notext', null)) await p.addInitScript(() => { window.NO_TEXT = true; });
@@ -24,7 +25,7 @@ async function openPage() {
 }
 async function shot(p, cdp, n) {
   await p.evaluate(n => window.renderFrame(n), n);
-  const { data } = await cdp.send('Page.captureScreenshot', { format: 'jpeg', quality: 95, clip: { x: 0, y: 0, width: 1080, height: 1920, scale: 1 }, optimizeForSpeed: false });
+  const { data } = await cdp.send('Page.captureScreenshot', { format: 'jpeg', quality: 95, clip: { x: 0, y: 0, width: VW, height: VH, scale: 1 }, optimizeForSpeed: false });
   return Buffer.from(data, 'base64');
 }
 async function renderRange(a, b, file, wi) {
@@ -40,11 +41,11 @@ async function renderRange(a, b, file, wi) {
 }
 (async () => {
   fs.mkdirSync(path.dirname(out), { recursive: true });
-  { const { b, p } = await openPage(); fs.writeFileSync(path.join(ROOT, 'source/sfx_events.json'), JSON.stringify(await p.evaluate(() => window.SFX), null, 0)); await b.close(); }
+  if (COMPF === 'comp.html') { const { b, p } = await openPage(); fs.writeFileSync(path.join(ROOT, 'source/sfx_events.json'), JSON.stringify(await p.evaluate(() => window.SFX), null, 0)); await b.close(); }
   if (arg('sfx-only', null)) return;
   if (stills) {
     const { b, p, cdp } = await openPage();
-    for (const s of stills.split(',')) { const n = Math.round(+s * FPS); fs.writeFileSync(path.join(ROOT, `final/_still_${s}.jpg`), await shot(p, cdp, n)); console.log('still', s); }
+    for (const s of stills.split(',')) { const n = Math.round(+s * FPS); fs.writeFileSync(path.join(ROOT, `final/_still${COMPF === 'comp.html' ? '' : '_' + COMPF.replace(/\W/g, '')}_${s}.jpg`), await shot(p, cdp, n)); console.log('still', s); }
     await b.close(); return;
   }
   const tmp = path.join(ROOT, 'final/_parts'); fs.rmSync(tmp, { recursive: true, force: true }); fs.mkdirSync(tmp, { recursive: true });
