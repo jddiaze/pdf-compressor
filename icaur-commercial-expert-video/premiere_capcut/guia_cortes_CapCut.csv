@@ -1,0 +1,18 @@
+tipo,id,inicio_s,fin_s,origen_inicio_s,texto
+escena,S1_impacto,0.0,6.0,0.0,
+escena,S2_hall,6.0,13.8,6.0,
+escena,S3_visor3d,13.8,21.6,13.8,
+escena,S4_interior_menu,21.6,30.0,21.6,
+escena,S5_chat,30.0,48.0,30.0,
+escena,S6_conversion_crm,48.0,58.2,48.0,
+escena,S7_cierre,58.2,66.0,58.2,
+narracion,N1,1.2,5.65,0.0,"Este es iCAUR Commercial Expert. Una nueva forma de explorar."
+narracion,N2,6.3,13.35,4.45,"Recorre el hall digital y elige entre V23, cien por ciento eléctrico, y V27, de rango extendido."
+narracion,N3,13.85,21.45,11.5,"Abre el modelo en tres dimensiones. Recorre el exterior. Cambia el color y descubre puntos de interés con un gesto."
+narracion,N4,21.75,29.35,19.1,"Entra a la galería interior y consulta características, seguridad, autonomía, precio, financiación y ficha técnica."
+narracion,N5a,31.25,32.85,26.7,"¿Tienes una pregunta?"
+narracion,N5b,35.35,38.5,28.3,"iCAUR Expert sabe qué modelo estás viendo."
+narracion,N5c,38.65,43.6,31.45,"Pregúntale, compara opciones y recibe orientación según tus recorridos."
+narracion,N6a,48.15,52.4,36.4,"Reserva, agenda una prueba de manejo o déjanos tus datos."
+narracion,N6b,52.55,57.35,40.65,"Con tu autorización, el equipo comercial puede continuar en el CRM."
+narracion,N7,58.4,64.13,45.45,"iCAUR Commercial Expert. Explora, pregunta y avanza hacia tu próximo iCAUR."

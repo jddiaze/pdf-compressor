@@ -1,0 +1,145 @@
+{
+ "fps": 30,
+ "bpm": 100,
+ "duration": 66.0,
+ "scenes": [
+  {
+   "id": "S1_impacto",
+   "t0": 0.0,
+   "t1": 6.0
+  },
+  {
+   "id": "S2_hall",
+   "t0": 6.0,
+   "t1": 13.8
+  },
+  {
+   "id": "S3_visor3d",
+   "t0": 13.8,
+   "t1": 21.6
+  },
+  {
+   "id": "S4_interior_menu",
+   "t0": 21.6,
+   "t1": 30.0
+  },
+  {
+   "id": "S5_chat",
+   "t0": 30.0,
+   "t1": 48.0
+  },
+  {
+   "id": "S6_conversion_crm",
+   "t0": 48.0,
+   "t1": 58.2
+  },
+  {
+   "id": "S7_cierre",
+   "t0": 58.2,
+   "t1": 66.0
+  }
+ ],
+ "hits": [
+  1.2,
+  13.8,
+  30.0,
+  31.2,
+  48.0,
+  58.2
+ ],
+ "narration": {
+  "file": "audio/narracion_original_lorena.mp3",
+  "chunks": [
+   {
+    "id": "N1",
+    "src": [
+     0.0,
+     4.45
+    ],
+    "dst": 1.2,
+    "text": "Este es iCAUR Commercial Expert. Una nueva forma de explorar."
+   },
+   {
+    "id": "N2",
+    "src": [
+     4.45,
+     11.5
+    ],
+    "dst": 6.3,
+    "text": "Recorre el hall digital y elige entre V23, cien por ciento eléctrico, y V27, de rango extendido."
+   },
+   {
+    "id": "N3",
+    "src": [
+     11.5,
+     19.1
+    ],
+    "dst": 13.85,
+    "text": "Abre el modelo en tres dimensiones. Recorre el exterior. Cambia el color y descubre puntos de interés con un gesto."
+   },
+   {
+    "id": "N4",
+    "src": [
+     19.1,
+     26.7
+    ],
+    "dst": 21.75,
+    "text": "Entra a la galería interior y consulta características, seguridad, autonomía, precio, financiación y ficha técnica."
+   },
+   {
+    "id": "N5a",
+    "src": [
+     26.7,
+     28.3
+    ],
+    "dst": 31.25,
+    "text": "¿Tienes una pregunta?"
+   },
+   {
+    "id": "N5b",
+    "src": [
+     28.3,
+     31.45
+    ],
+    "dst": 35.35,
+    "text": "iCAUR Expert sabe qué modelo estás viendo."
+   },
+   {
+    "id": "N5c",
+    "src": [
+     31.45,
+     36.4
+    ],
+    "dst": 38.65,
+    "text": "Pregúntale, compara opciones y recibe orientación según tus recorridos."
+   },
+   {
+    "id": "N6a",
+    "src": [
+     36.4,
+     40.65
+    ],
+    "dst": 48.15,
+    "text": "Reserva, agenda una prueba de manejo o déjanos tus datos."
+   },
+   {
+    "id": "N6b",
+    "src": [
+     40.65,
+     45.45
+    ],
+    "dst": 52.55,
+    "text": "Con tu autorización, el equipo comercial puede continuar en el CRM."
+   },
+   {
+    "id": "N7",
+    "src": [
+     45.45,
+     51.18
+    ],
+    "dst": 58.4,
+    "text": "iCAUR Commercial Expert. Explora, pregunta y avanza hacia tu próximo iCAUR."
+   }
+  ]
+ }
+}

@@ -1,0 +1,28 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter,46,&H00FFFFFF,&H00FFFFFF,&H00281F1B,&H99281F1B,-1,0,0,0,100,100,0,0,3,14,0,2,90,90,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.15,0:00:03.45,Sub,,0,0,0,,Este es iCAUR Commercial Expert.
+Dialogue: 0,0:00:03.73,0:00:05.67,Sub,,0,0,0,,Una nueva forma de explorar.
+Dialogue: 0,0:00:06.56,0:00:09.40,Sub,,0,0,0,,Recorre el hall digital y elige entre V23,
+Dialogue: 0,0:00:09.48,0:00:11.79,Sub,,0,0,0,,cien por ciento eléctrico, y V27,
+Dialogue: 0,0:00:11.82,0:00:13.42,Sub,,0,0,0,,de rango extendido.
+Dialogue: 0,0:00:14.04,0:00:16.32,Sub,,0,0,0,,Abre el modelo en tres dimensiones.
+Dialogue: 0,0:00:16.44,0:00:17.68,Sub,,0,0,0,,Recorre el exterior.
+Dialogue: 0,0:00:17.92,0:00:21.52,Sub,,0,0,0,,Cambia el color y descubre\Npuntos de interés con un gesto.
+Dialogue: 0,0:00:21.88,0:00:24.98,Sub,,0,0,0,,Entra a la galería interior\Ny consulta características,
+Dialogue: 0,0:00:25.20,0:00:29.28,Sub,,0,0,0,,seguridad, autonomía, precio,\Nfinanciación y ficha técnica.
+Dialogue: 0,0:00:31.48,0:00:32.64,Sub,,0,0,0,,¿Tienes una pregunta?
+Dialogue: 0,0:00:35.72,0:00:38.54,Sub,,0,0,0,,iCAUR Expert sabe qué modelo estás viendo.
+Dialogue: 0,0:00:38.81,0:00:43.59,Sub,,0,0,0,,Pregúntale, compara opciones y recibe\Norientación según tus recorridos.
+Dialogue: 0,0:00:48.38,0:00:52.34,Sub,,0,0,0,,Reserva, agenda una prueba de\Nmanejo o déjanos tus datos.
+Dialogue: 0,0:00:52.87,0:00:57.33,Sub,,0,0,0,,Con tu autorización, el equipo\Ncomercial puede continuar en el CRM.
+Dialogue: 0,0:00:58.62,0:01:00.26,Sub,,0,0,0,,iCAUR Commercial Expert.
+Dialogue: 0,0:01:00.38,0:01:04.06,Sub,,0,0,0,,Explora, pregunta y avanza\Nhacia tu próximo iCAUR.

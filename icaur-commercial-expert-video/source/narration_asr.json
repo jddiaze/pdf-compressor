@@ -1,0 +1,646 @@
+[
+{
+"start": 0.0,
+"end": 4.22,
+"text": " Este es iCAUR Commercial Expert, una nueva forma de explorar.",
+"words": [
+[
+0.0,
+0.34,
+" Este"
+],
+[
+0.34,
+0.6,
+" es"
+],
+[
+0.6,
+1.18,
+" iCAUR"
+],
+[
+1.18,
+1.62,
+" Commercial"
+],
+[
+1.62,
+2.0,
+" Expert,"
+],
+[
+2.58,
+2.74,
+" una"
+],
+[
+2.74,
+2.96,
+" nueva"
+],
+[
+2.96,
+3.38,
+" forma"
+],
+[
+3.38,
+3.6,
+" de"
+],
+[
+3.6,
+4.22,
+" explorar."
+]
+]
+},
+{
+"start": 4.76,
+"end": 11.32,
+"text": " Recorre el hall digital y elige entre V23, 100% eléctrico, y V27 de rango extendido.",
+"words": [
+[
+4.76,
+5.02,
+" Recorre"
+],
+[
+5.02,
+5.14,
+" el"
+],
+[
+5.14,
+5.34,
+" hall"
+],
+[
+5.34,
+5.82,
+" digital"
+],
+[
+5.82,
+6.18,
+" y"
+],
+[
+6.18,
+6.44,
+" elige"
+],
+[
+6.44,
+6.66,
+" entre"
+],
+[
+6.66,
+7.3,
+" V23,"
+],
+[
+7.68,
+7.86,
+" 100"
+],
+[
+7.86,
+8.36,
+"%"
+],
+[
+8.36,
+8.88,
+" eléctrico,"
+],
+[
+9.2,
+9.28,
+" y"
+],
+[
+9.28,
+10.02,
+" V27"
+],
+[
+10.02,
+10.36,
+" de"
+],
+[
+10.36,
+10.68,
+" rango"
+],
+[
+10.68,
+11.32,
+" extendido."
+]
+]
+},
+{
+"start": 11.74,
+"end": 13.72,
+"text": " Abre el modelo en tres dimensiones.",
+"words": [
+[
+11.74,
+12.0,
+" Abre"
+],
+[
+12.0,
+12.14,
+" el"
+],
+[
+12.14,
+12.46,
+" modelo"
+],
+[
+12.46,
+12.72,
+" en"
+],
+[
+12.72,
+12.9,
+" tres"
+],
+[
+12.9,
+13.72,
+" dimensiones."
+]
+]
+},
+{
+"start": 14.14,
+"end": 15.08,
+"text": " Recorre el exterior.",
+"words": [
+[
+14.14,
+14.6,
+" Recorre"
+],
+[
+14.6,
+14.74,
+" el"
+],
+[
+14.74,
+15.08,
+" exterior."
+]
+]
+},
+{
+"start": 15.62,
+"end": 18.92,
+"text": " Cambia el color y descubre puntos de interés con un gesto.",
+"words": [
+[
+15.62,
+15.88,
+" Cambia"
+],
+[
+15.88,
+16.0,
+" el"
+],
+[
+16.0,
+16.24,
+" color"
+],
+[
+16.24,
+16.52,
+" y"
+],
+[
+16.52,
+17.0,
+" descubre"
+],
+[
+17.0,
+17.36,
+" puntos"
+],
+[
+17.36,
+17.62,
+" de"
+],
+[
+17.62,
+18.02,
+" interés"
+],
+[
+18.02,
+18.22,
+" con"
+],
+[
+18.22,
+18.36,
+" un"
+],
+[
+18.36,
+18.92,
+" gesto."
+]
+]
+},
+{
+"start": 19.28,
+"end": 26.38,
+"text": " Entra a la galería interior y consulta características, seguridad, autonomía, precio, financiación y ficha técnica.",
+"words": [
+[
+19.28,
+19.64,
+" Entra"
+],
+[
+19.64,
+19.78,
+" a"
+],
+[
+19.78,
+19.82,
+" la"
+],
+[
+19.82,
+20.22,
+" galería"
+],
+[
+20.22,
+20.64,
+" interior"
+],
+[
+20.64,
+20.96,
+" y"
+],
+[
+20.96,
+21.52,
+" consulta"
+],
+[
+21.52,
+22.08,
+" características,"
+],
+[
+22.6,
+23.0,
+" seguridad,"
+],
+[
+23.42,
+23.98,
+" autonomía,"
+],
+[
+24.26,
+24.5,
+" precio,"
+],
+[
+24.84,
+25.48,
+" financiación"
+],
+[
+25.48,
+25.72,
+" y"
+],
+[
+25.72,
+25.98,
+" ficha"
+],
+[
+25.98,
+26.38,
+" técnica."
+]
+]
+},
+{
+"start": 26.98,
+"end": 27.84,
+"text": " ¿Tienes una pregunta?",
+"words": [
+[
+26.98,
+27.32,
+" ¿Tienes"
+],
+[
+27.32,
+27.5,
+" una"
+],
+[
+27.5,
+27.84,
+" pregunta?"
+]
+]
+},
+{
+"start": 28.72,
+"end": 31.24,
+"text": " iCAUR Expert sabe qué modelo estás viendo.",
+"words": [
+[
+28.72,
+29.28,
+" iCAUR"
+],
+[
+29.28,
+29.5,
+" Expert"
+],
+[
+29.5,
+29.96,
+" sabe"
+],
+[
+29.96,
+30.22,
+" qué"
+],
+[
+30.22,
+30.52,
+" modelo"
+],
+[
+30.52,
+30.86,
+" estás"
+],
+[
+30.86,
+31.24,
+" viendo."
+]
+]
+},
+{
+"start": 31.66,
+"end": 36.14,
+"text": " Pregúntale, compara opciones y recibe orientación según tus recorridos.",
+"words": [
+[
+31.66,
+32.26,
+" Pregúntale,"
+],
+[
+32.64,
+32.94,
+" compara"
+],
+[
+32.94,
+33.38,
+" opciones"
+],
+[
+33.38,
+33.78,
+" y"
+],
+[
+33.78,
+34.28,
+" recibe"
+],
+[
+34.28,
+34.96,
+" orientación"
+],
+[
+34.96,
+35.28,
+" según"
+],
+[
+35.28,
+35.48,
+" tus"
+],
+[
+35.48,
+36.14,
+" recorridos."
+]
+]
+},
+{
+"start": 36.68,
+"end": 40.34,
+"text": " Reserva, agenda una prueba de manejo o déjanos tus datos.",
+"words": [
+[
+36.68,
+37.36,
+" Reserva,"
+],
+[
+37.56,
+37.96,
+" agenda"
+],
+[
+37.96,
+38.18,
+" una"
+],
+[
+38.18,
+38.46,
+" prueba"
+],
+[
+38.46,
+38.7,
+" de"
+],
+[
+38.7,
+39.1,
+" manejo"
+],
+[
+39.1,
+39.38,
+" o"
+],
+[
+39.38,
+39.84,
+" déjanos"
+],
+[
+39.84,
+39.98,
+" tus"
+],
+[
+39.98,
+40.34,
+" datos."
+]
+]
+},
+{
+"start": 41.02,
+"end": 45.18,
+"text": " Con tu autorización, el equipo comercial puede continuar en el CRM.",
+"words": [
+[
+41.02,
+41.18,
+" Con"
+],
+[
+41.18,
+41.34,
+" tu"
+],
+[
+41.34,
+42.08,
+" autorización,"
+],
+[
+42.42,
+42.5,
+" el"
+],
+[
+42.5,
+42.74,
+" equipo"
+],
+[
+42.74,
+43.26,
+" comercial"
+],
+[
+43.26,
+43.56,
+" puede"
+],
+[
+43.56,
+44.08,
+" continuar"
+],
+[
+44.08,
+44.32,
+" en"
+],
+[
+44.32,
+44.44,
+" el"
+],
+[
+44.44,
+45.18,
+" CRM."
+]
+]
+},
+{
+"start": 45.72,
+"end": 50.86,
+"text": " iCAUR Commercial Expert, explora pregunta y avanza hacia tu próximo iCAUR.",
+"words": [
+[
+45.72,
+46.48,
+" iCAUR"
+],
+[
+46.48,
+46.52,
+" Commercial"
+],
+[
+46.52,
+47.06,
+" Expert,"
+],
+[
+47.48,
+48.08,
+" explora"
+],
+[
+48.08,
+48.48,
+" pregunta"
+],
+[
+48.48,
+49.0,
+" y"
+],
+[
+49.0,
+49.38,
+" avanza"
+],
+[
+49.38,
+49.62,
+" hacia"
+],
+[
+49.62,
+49.84,
+" tu"
+],
+[
+49.84,
+50.2,
+" próximo"
+],
+[
+50.2,
+50.86,
+" iCAUR."
+]
+]
+}
+]
