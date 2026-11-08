@@ -1,0 +1,446 @@
+[
+ {
+  "q": "¿Qué autonomía tiene este vehículo?",
+  "a": "El V27 que estás viendo tiene una autonomía total publicada de 1.000 km en ciclo NEDC, con batería y tanque llenos. En modo eléctrico, la versión 2WD publica 95 km y la 4WD, 150 km, también en ciclo NEDC. Son cifras de ensayo, no una promesa de autonomía real: pueden variar según el uso, la conducción y la temperatura. ¿Lo usarías principalmente en ciudad o para viajes largos? Así te explico cómo encaja su sistema de rango extendido en tus recorridos.",
+  "bubbles": [
+   {
+    "x": 921,
+    "y": 84.5,
+    "w": 288.1484375,
+    "h": 122.734375,
+    "t": "ICAUR EXPERT\n¡Hola! Soy iCAUR Expert, tu asistente virtual, y estoy aquí para ay"
+   },
+   {
+    "x": 935,
+    "y": 94.5,
+    "w": 260.1484375,
+    "h": 102.734375,
+    "t": "ICAUR EXPERT\n¡Hola! Soy iCAUR Expert, tu asistente virtual, y estoy aquí para ay"
+   },
+   {
+    "x": 921,
+    "y": 291.203125,
+    "w": 288.1484375,
+    "h": 311.03125,
+    "t": "ICAUR EXPERT\nEl V27 que estás viendo tiene una autonomía total publicada de 1.00"
+   },
+   {
+    "x": 935,
+    "y": 301.203125,
+    "w": 260.1484375,
+    "h": 291.03125,
+    "t": "ICAUR EXPERT\nEl V27 que estás viendo tiene una autonomía total publicada de 1.00"
+   }
+  ],
+  "rects": {
+   "1.000 km en ciclo NEDC": [
+    [
+     1123.046875,
+     343.171875,
+     57.625,
+     16.5
+    ],
+    [
+     935,
+     364.09375,
+     91.390625,
+     16.5
+    ]
+   ],
+   "V27": [
+    [
+     950.1796875,
+     322.25,
+     25.1953125,
+     16.5
+    ]
+   ],
+   "rango extendido": [
+    [
+     1072.6328125,
+     552.390625,
+     104.046875,
+     16.5
+    ]
+   ],
+   "__bubble": [
+    [
+     935,
+     301.203125,
+     260.1484375,
+     291.03125
+    ]
+   ]
+  },
+  "t": 22.9469997882843
+ },
+ {
+  "q": "¿En qué se diferencian el V23 y el V27?",
+  "a": "La diferencia principal está en cómo se abastecen: el iCAUR V23 EV es 100 % eléctrico a batería y se recarga enchufándolo. El iCAUR V27 REEV siempre se mueve con motores eléctricos, pero además lleva un motor a gasolina que genera electricidad; por eso puedes enchufarlo o tanquearlo. En espacio, el V27 es un SUV de mayor tamaño, tiene cinco puestos y un baúl de mayor capacidad que el V23. ¿Cuántas personas suelen viajar contigo? Así puedo orientarte según el espacio que necesitas.",
+  "bubbles": [
+   {
+    "x": 921,
+    "y": -331.5,
+    "w": 288.1484375,
+    "h": 122.734375,
+    "t": "ICAUR EXPERT\n¡Hola! Soy iCAUR Expert, tu asistente virtual, y estoy aquí para ay"
+   },
+   {
+    "x": 935,
+    "y": -321.5,
+    "w": 260.1484375,
+    "h": 102.734375,
+    "t": "ICAUR EXPERT\n¡Hola! Soy iCAUR Expert, tu asistente virtual, y estoy aquí para ay"
+   },
+   {
+    "x": 921,
+    "y": -124.796875,
+    "w": 288.1484375,
+    "h": 311.03125,
+    "t": "ICAUR EXPERT\nEl V27 que estás viendo tiene una autonomía total publicada de 1.00"
+   },
+   {
+    "x": 935,
+    "y": -114.796875,
+    "w": 260.1484375,
+    "h": 291.03125,
+    "t": "ICAUR EXPERT\nEl V27 que estás viendo tiene una autonomía total publicada de 1.00"
+   },
+   {
+    "x": 921,
+    "y": 270.203125,
+    "w": 288.1484375,
+    "h": 331.953125,
+    "t": "ICAUR EXPERT\nLa diferencia principal está en cómo se abastecen: el iCAUR V23 EV "
+   },
+   {
+    "x": 935,
+    "y": 280.203125,
+    "w": 260.1484375,
+    "h": 311.953125,
+    "t": "ICAUR EXPERT\nLa diferencia principal está en cómo se abastecen: el iCAUR V23 EV "
+   }
+  ],
+  "rects": {
+   "100 % eléctrico": [
+    [
+     1138.171875,
+     322.171875,
+     39.578125,
+     16.5
+    ],
+    [
+     935,
+     343.09375,
+     55.4375,
+     16.5
+    ]
+   ],
+   "motor a gasolina que genera electricidad": [
+    [
+     1144.96875,
+     405.859375,
+     48.7734375,
+     16.5
+    ],
+    [
+     935,
+     426.78125,
+     208.0703125,
+     16.5
+    ]
+   ],
+   "orientarte según el espacio que necesitas": [
+    [
+     1061.3203125,
+     552.3125,
+     119.9140625,
+     16.5
+    ],
+    [
+     935,
+     573.234375,
+     142.78125,
+     16.5
+    ]
+   ],
+   "¿Cuántas personas suelen viajar contigo?": [
+    [
+     935,
+     531.390625,
+     206.46875,
+     16.5
+    ],
+    [
+     935,
+     552.3125,
+     54.75,
+     16.5
+    ]
+   ],
+   "V27": [
+    [
+     1089.90625,
+     364.015625,
+     25.1953125,
+     16.5
+    ]
+   ],
+   "__bubble": [
+    [
+     935,
+     280.203125,
+     260.1484375,
+     311.953125
+    ]
+   ]
+  },
+  "t": 49.347999811172485
+ },
+ {
+  "q": "Lo usaría en ciudad y para viajar los fines de semana con mi familia. ¿Cuál me recomiendas?",
+  "a": "Para ciudad y viajes de fin de semana con tu familia, miraría el espacio y la autonomía antes de recomendarte uno. El V23 tiene 4 puestos y un baúl de 234 L; el V27 ofrece 5 puestos y 715 L de baúl con todos los puestos en uso. ¿Cuántas personas viajarían habitualmente y qué pesa más para ti: espacio, autonomía o precio? Así puedo recomendarte el que responda a tus recorridos y prioridades.",
+  "bubbles": [
+   {
+    "x": 921,
+    "y": -726.5,
+    "w": 288.1484375,
+    "h": 122.734375,
+    "t": "ICAUR EXPERT\n¡Hola! Soy iCAUR Expert, tu asistente virtual, y estoy aquí para ay"
+   },
+   {
+    "x": 935,
+    "y": -716.5,
+    "w": 260.1484375,
+    "h": 102.734375,
+    "t": "ICAUR EXPERT\n¡Hola! Soy iCAUR Expert, tu asistente virtual, y estoy aquí para ay"
+   },
+   {
+    "x": 921,
+    "y": -519.796875,
+    "w": 288.1484375,
+    "h": 311.03125,
+    "t": "ICAUR EXPERT\nEl V27 que estás viendo tiene una autonomía total publicada de 1.00"
+   },
+   {
+    "x": 935,
+    "y": -509.796875,
+    "w": 260.1484375,
+    "h": 291.03125,
+    "t": "ICAUR EXPERT\nEl V27 que estás viendo tiene una autonomía total publicada de 1.00"
+   },
+   {
+    "x": 921,
+    "y": -124.796875,
+    "w": 288.1484375,
+    "h": 331.953125,
+    "t": "ICAUR EXPERT\nLa diferencia principal está en cómo se abastecen: el iCAUR V23 EV "
+   },
+   {
+    "x": 935,
+    "y": -114.796875,
+    "w": 260.1484375,
+    "h": 311.953125,
+    "t": "ICAUR EXPERT\nLa diferencia principal está en cómo se abastecen: el iCAUR V23 EV "
+   },
+   {
+    "x": 971.8515625,
+    "y": 219.15625,
+    "w": 288.1484375,
+    "h": 101.8125,
+    "t": "YOU\nLo usaría en ciudad y para viajar los fines de semana con mi familia. ¿Cuál "
+   },
+   {
+    "x": 985.8515625,
+    "y": 229.15625,
+    "w": 260.1484375,
+    "h": 81.8125,
+    "t": "YOU\nLo usaría en ciudad y para viajar los fines de semana con mi familia. ¿Cuál "
+   },
+   {
+    "x": 921,
+    "y": 332.96875,
+    "w": 288.1484375,
+    "h": 269.1875,
+    "t": "ICAUR EXPERT\nPara ciudad y viajes de fin de semana con tu familia, miraría el es"
+   },
+   {
+    "x": 935,
+    "y": 342.96875,
+    "w": 260.1484375,
+    "h": 249.1875,
+    "t": "ICAUR EXPERT\nPara ciudad y viajes de fin de semana con tu familia, miraría el es"
+   }
+  ],
+  "rects": {
+   "4 puestos": [
+    [
+     1015.0625,
+     426.78125,
+     63.2734375,
+     16.5
+    ]
+   ],
+   "5 puestos": [
+    [
+     1039.625,
+     447.703125,
+     62.5625,
+     16.5
+    ]
+   ],
+   "¿Cuántas personas viajarían habitualmente y qué pesa más para ti: espacio, autonomía o precio?": [
+    [
+     935,
+     489.546875,
+     179.5390625,
+     16.5
+    ],
+    [
+     935,
+     510.46875,
+     242.2578125,
+     16.5
+    ],
+    [
+     935,
+     531.390625,
+     187.09375,
+     16.5
+    ]
+   ],
+   "V27": [
+    [
+     965.4375,
+     447.703125,
+     25.1953125,
+     16.5
+    ]
+   ],
+   "__bubble": [
+    [
+     935,
+     342.96875,
+     260.1484375,
+     249.1875
+    ]
+   ]
+  },
+  "t": 85.02899980545044
+ },
+ {
+  "q": "¿Cómo puedo agendar una prueba de manejo?",
+  "a": "Para conocerlo antes de decidir, puedes agendar desde el botón Prueba de Manejo del showroom. ¿En qué ciudad estás? Así te indico el punto disponible para probarlo.",
+  "bubbles": [
+   {
+    "x": 921,
+    "y": -975,
+    "w": 288.1484375,
+    "h": 122.734375,
+    "t": "ICAUR EXPERT\n¡Hola! Soy iCAUR Expert, tu asistente virtual, y estoy aquí para ay"
+   },
+   {
+    "x": 935,
+    "y": -965,
+    "w": 260.1484375,
+    "h": 102.734375,
+    "t": "ICAUR EXPERT\n¡Hola! Soy iCAUR Expert, tu asistente virtual, y estoy aquí para ay"
+   },
+   {
+    "x": 921,
+    "y": -768.296875,
+    "w": 288.1484375,
+    "h": 311.03125,
+    "t": "ICAUR EXPERT\nEl V27 que estás viendo tiene una autonomía total publicada de 1.00"
+   },
+   {
+    "x": 935,
+    "y": -758.296875,
+    "w": 260.1484375,
+    "h": 291.03125,
+    "t": "ICAUR EXPERT\nEl V27 que estás viendo tiene una autonomía total publicada de 1.00"
+   },
+   {
+    "x": 921,
+    "y": -373.296875,
+    "w": 288.1484375,
+    "h": 331.953125,
+    "t": "ICAUR EXPERT\nLa diferencia principal está en cómo se abastecen: el iCAUR V23 EV "
+   },
+   {
+    "x": 935,
+    "y": -363.296875,
+    "w": 260.1484375,
+    "h": 311.953125,
+    "t": "ICAUR EXPERT\nLa diferencia principal está en cómo se abastecen: el iCAUR V23 EV "
+   },
+   {
+    "x": 971.8515625,
+    "y": -29.34375,
+    "w": 288.1484375,
+    "h": 101.8125,
+    "t": "YOU\nLo usaría en ciudad y para viajar los fines de semana con mi familia. ¿Cuál "
+   },
+   {
+    "x": 985.8515625,
+    "y": -19.34375,
+    "w": 260.1484375,
+    "h": 81.8125,
+    "t": "YOU\nLo usaría en ciudad y para viajar los fines de semana con mi familia. ¿Cuál "
+   },
+   {
+    "x": 921,
+    "y": 84.46875,
+    "w": 288.1484375,
+    "h": 269.1875,
+    "t": "ICAUR EXPERT\nPara ciudad y viajes de fin de semana con tu familia, miraría el es"
+   },
+   {
+    "x": 935,
+    "y": 94.46875,
+    "w": 260.1484375,
+    "h": 249.1875,
+    "t": "ICAUR EXPERT\nPara ciudad y viajes de fin de semana con tu familia, miraría el es"
+   },
+   {
+    "x": 921,
+    "y": 458.546875,
+    "w": 288.1484375,
+    "h": 143.65625,
+    "t": "ICAUR EXPERT\nPara conocerlo antes de decidir, puedes agendar desde el botón Prue"
+   },
+   {
+    "x": 935,
+    "y": 468.546875,
+    "w": 260.1484375,
+    "h": 123.65625,
+    "t": "ICAUR EXPERT\nPara conocerlo antes de decidir, puedes agendar desde el botón Prue"
+   }
+  ],
+  "rects": {
+   "botón Prueba de Manejo": [
+    [
+     1049.5625,
+     510.515625,
+     105.9921875,
+     16.5
+    ],
+    [
+     935,
+     531.4375,
+     46.9921875,
+     16.5
+    ]
+   ],
+   "__bubble": [
+    [
+     935,
+     468.546875,
+     260.1484375,
+     123.65625
+    ]
+   ]
+  },
+  "t": 110.81199979782104
+ }
+]

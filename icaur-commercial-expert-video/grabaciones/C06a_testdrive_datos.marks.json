@@ -1,0 +1,38 @@
+{
+ "firstFrameOffset": 0.8641719818115234,
+ "slow": 3,
+ "marks": [
+  {
+   "label": "td_click",
+   "t": 0.412
+  },
+  {
+   "label": "td_scroll",
+   "t": 8.073
+  },
+  {
+   "label": "td_close",
+   "t": 16.126
+  },
+  {
+   "label": "datos_click",
+   "t": 20.23
+  },
+  {
+   "label": "datos_scroll",
+   "t": 22.99
+  },
+  {
+   "label": "datos_end",
+   "t": 31.266
+  },
+  {
+   "label": "reserva_hover",
+   "t": 32.674
+  },
+  {
+   "label": "reserva_click",
+   "t": 34.993
+  }
+ ]
+}

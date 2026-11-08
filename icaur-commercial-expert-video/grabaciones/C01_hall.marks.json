@@ -1,0 +1,26 @@
+{
+ "firstFrameOffset": 0.23085904121398926,
+ "slow": 3,
+ "marks": [
+  {
+   "label": "to_next",
+   "t": 2.123
+  },
+  {
+   "label": "v27",
+   "t": 3.267
+  },
+  {
+   "label": "to_prev",
+   "t": 6.767
+  },
+  {
+   "label": "v23",
+   "t": 8.396
+  },
+  {
+   "label": "hover_3d",
+   "t": 10.898
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "firstFrameOffset": 0.2615790367126465,
+ "slow": 3,
+ "marks": [
+  {
+   "label": "menu",
+   "t": 0.413
+  },
+  {
+   "label": "hover_Seguridad",
+   "t": 2.058
+  },
+  {
+   "label": "hover_Autonomía",
+   "t": 2.991
+  },
+  {
+   "label": "hover_Batería",
+   "t": 3.893
+  },
+  {
+   "label": "precio",
+   "t": 5.161
+  },
+  {
+   "label": "typing",
+   "t": 6.416
+  },
+  {
+   "label": "answer",
+   "t": 8.428
+  }
+ ]
+}
